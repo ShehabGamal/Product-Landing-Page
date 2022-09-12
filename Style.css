@@ -1,0 +1,44 @@
+/* Nav Bar */
+#nav-bar {
+    display:flex;
+    justify-content: space-around;
+    position: fixed;
+    min-height:70%;
+    width:100%;
+    top:0;
+    
+ }
+ #nav-link {
+    list-style-type: none;
+    margin: 0px 10px 10px 0px;
+    padding: 5px;
+    display:inline;
+}
+  #header-img {
+    width: 25vw;
+    margin: 0px 10px 10px 0px;
+    padding: 5px;
+
+  }
+
+  #left-side{
+    display:flex;
+    justify-content: center;
+    
+  }
+  #anchor{
+    text-decoration:none;
+    color: green;
+    font-size:20px;
+  }
+  /* Form */
+#input{
+    display:flex;
+    justify-content: center;
+    text-align:center;
+    flex-direction:column;
+    height:250px;
+    margin-top:60px;
+
+
+}
